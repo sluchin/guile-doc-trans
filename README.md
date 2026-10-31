@@ -8,7 +8,7 @@ GNU Guile のリファレンスマニュアル (https://www.gnu.org/software/gui
 
 ## 仕組み
 
-```
+```text
 リンクを開く ─> Rust: ドキュメントのページを取得 (doc.guix.gnu.org だけ)
             ─> React: 本文を取り出し (リンクと画像は絶対 URL に)、段落ごとに分ける
             ─> Rust: 段落 (HTML の断片) を翻訳 (コードには「翻訳しない」印を付ける) ─> キャッシュ
